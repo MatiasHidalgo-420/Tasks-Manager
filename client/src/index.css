@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url(./assets/gris1.jpg);
+    
+}
+
+ 
+.full-homepagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que esté detrás de otros contenidos */
+   /* background-image: url('./assets/homepage.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen de fondo */
+}
+.full-registerpagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que esté detrás de otros contenidos */
+   /* background-image: url('./assets/registerpage.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen de fondo */
+}
+.full-loginpagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que esté detrás de otros contenidos */
+   /* background-image: url('./assets/loginpage.jpeg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+button {
+    color: white;
+}
+
+label {
+    color: white;
+    
+}
